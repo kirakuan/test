@@ -20,7 +20,7 @@ const append_nav = function () {
                         <li class="nav-item">
                             <a class="nav-link" href="/first-visitor">初めての方へ</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" style="display: None;">
                             <a class="nav-link" href="#">症状一覧</a>
                         </li>
                         <li class="nav-item">
