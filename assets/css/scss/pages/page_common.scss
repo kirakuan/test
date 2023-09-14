@@ -176,10 +176,11 @@ ol {
 
 
 .l-Column {
-    a {
-        color: #000000!important;
+    .c-List {
+        a {
+            color: #000000!important;
+        }
     }
-
     .m-Article {
         > * {
             @include too_bottom_space;
