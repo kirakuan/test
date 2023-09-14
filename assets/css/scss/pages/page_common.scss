@@ -13,6 +13,14 @@
 //     }
 // }
 
+
+//====================================================
+// test用
+//====================================================
+.test {
+    background-color: $main_color;
+}
+
 //====================================================
 // 共通css
 //====================================================
@@ -30,6 +38,31 @@ body {
 a {
     color: $key_color!important;
 }
+ol {
+    list-style: decimal;
+}
+
+.is_main {
+    color: $main_color!important;
+}
+.is_key {
+    color: $key_color!important;
+}
+.is_key2 {
+    color: $key_color2!important;
+}
+.a-Remark {
+    color: $key_color2!important;
+    font-size: 1.2rem;
+}
+
+.is_preparing {
+    text-decoration: line-through;
+}
+
+//====================================================
+// atomic
+//====================================================
 
 .a-Title {
     font-weight: bold;
@@ -48,17 +81,28 @@ a {
     }
 }
 
+//====================================================
+// util
+//====================================================
+
 .u-ch-mt-2 > * {
     margin-top: #{$base_space * 2}px;
 }
+.u-ch-mt-3 > * {
+    margin-top: #{$base_space * 3}px;
+}
 
 //====================================================
-// 共通css
+// 共通mixin
 //====================================================
 @mixin too_bottom_space() {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
+//====================================================
+// componet
+//====================================================
 
 .c-Hero {
     background-color: $base2_color;
@@ -72,6 +116,11 @@ a {
     }
 }
 
+
+//====================================================
+// module
+//====================================================
+
 .m-Main {
     margin-top: 60px;
 }
@@ -82,13 +131,10 @@ a {
     }
     section {
         > *:nth-child(n+2) {
-            margin-top: 20px;
+            margin-top: #{$base_space * 3}px;
             padding-left: #{$base_space * 2}px;
         }
     }
-
-
-    
 }
 
 .m-Footer {
@@ -98,6 +144,7 @@ a {
 
     .m-Footer__inner {
         * > *:nth-child(n+2) {
+            margin-top: #{$base_space * 1}px;
             padding-left: #{$base_space * 2}px;
         }
     }
@@ -107,6 +154,14 @@ a {
     }
 }
 
-.test {
-    background-color: $main_color;
+
+
+// layout
+//====================================================
+.l-First-Visitor {
+    .c-Steps {
+        li > section > *:nth-child(n+2) {
+            margin-top: #{$base_space * 1}px!important;
+        }
+    }
 }

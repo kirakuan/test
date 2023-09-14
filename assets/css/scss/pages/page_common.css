@@ -1,3 +1,7 @@
+.test {
+  background-color: #ffe4ce;
+}
+
 body {
   background-color: #fcfcfc;
   font-size: 16px;
@@ -9,6 +13,31 @@ body {
 
 a {
   color: #4b2df4 !important;
+}
+
+ol {
+  list-style: decimal;
+}
+
+.is_main {
+  color: #ffe4ce !important;
+}
+
+.is_key {
+  color: #4b2df4 !important;
+}
+
+.is_key2 {
+  color: #f4582d !important;
+}
+
+.a-Remark {
+  color: #f4582d !important;
+  font-size: 1.2rem;
+}
+
+.is_preparing {
+  text-decoration: line-through;
 }
 
 .a-Title {
@@ -33,6 +62,10 @@ a {
   margin-top: 16px;
 }
 
+.u-ch-mt-3 > * {
+  margin-top: 24px;
+}
+
 .c-Hero {
   background-color: black;
   padding-top: 80px;
@@ -55,7 +88,7 @@ a {
 }
 
 .m-Article section > *:nth-child(n+2) {
-  margin-top: 20px;
+  margin-top: 24px;
   padding-left: 16px;
 }
 
@@ -67,10 +100,11 @@ a {
 }
 
 .m-Footer .m-Footer__inner * > *:nth-child(n+2) {
+  margin-top: 8px;
   padding-left: 16px;
 }
 
-.test {
-  background-color: #ffe4ce;
+.l-First-Visitor .c-Steps li > section > *:nth-child(n+2) {
+  margin-top: 8px !important;
 }
 /*# sourceMappingURL=page_common.css.map */
