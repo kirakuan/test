@@ -85,11 +85,17 @@ ol {
 // util
 //====================================================
 
-.u-ch-mt-2 > * {
-    margin-top: #{$base_space * 2}px;
+.u-ch-mt-2 {
+    > *:nth-child(n+2) {
+        margin-top: #{$base_space * 2}px;
+    }
 }
+
 .u-ch-mt-3 > * {
-    margin-top: #{$base_space * 3}px;
+
+    > *:nth-child(n+2) {
+        margin-top: #{$base_space * 3}px;
+    }
 }
 
 //====================================================
@@ -135,6 +141,7 @@ ol {
 }
 
 .m-Footer {
+    margin-top: 60px;
     margin-bottom: 60px;
     background-color: $main_color;
     @include too_bottom_space;

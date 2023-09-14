@@ -58,11 +58,11 @@ ol {
   font-size: 1.8rem;
 }
 
-.u-ch-mt-2 > * {
+.u-ch-mt-2 > *:nth-child(n+2) {
   margin-top: 16px;
 }
 
-.u-ch-mt-3 > * {
+.u-ch-mt-3 > * > *:nth-child(n+2) {
   margin-top: 24px;
 }
 
@@ -89,6 +89,7 @@ ol {
 }
 
 .m-Footer {
+  margin-top: 60px;
   margin-bottom: 60px;
   background-color: #ffe4ce;
   padding-top: 24px;
