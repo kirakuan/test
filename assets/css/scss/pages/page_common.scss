@@ -107,8 +107,8 @@ ol {
 // 共通mixin
 //====================================================
 @mixin too_bottom_space() {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 //====================================================
@@ -163,13 +163,31 @@ ol {
 }
 
 
-
+//====================================================
 // layout
 //====================================================
 .l-First-Visitor {
     .c-Steps {
         li > section > *:nth-child(n+2) {
             margin-top: #{$base_space * 1}px!important;
+        }
+    }
+}
+
+
+.l-Column {
+    a {
+        color: #000000!important;
+    }
+
+    .m-Article {
+        > * {
+            @include too_bottom_space;
+        }
+        section {
+            section {
+                margin-top: #{$base_space * 5}px;
+            }
         }
     }
 }

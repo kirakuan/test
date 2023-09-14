@@ -20,6 +20,8 @@ const append_nav = function () {
                         <li class="nav-item">
                             <a class="nav-link" href="/first-visitor">初めての方へ</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/column">読み物</a>
                         </li>
                     </ul>
                 </div>
