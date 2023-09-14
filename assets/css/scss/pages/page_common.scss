@@ -86,15 +86,20 @@ ol {
 //====================================================
 
 .u-ch-mt-2 {
-    > *:nth-child(n+2) {
+    > * {
         margin-top: #{$base_space * 2}px;
+    }
+    > .has_no_mt {
+        margin-top: 0px;
     }
 }
 
 .u-ch-mt-3 > * {
-
-    > *:nth-child(n+2) {
+    > * {
         margin-top: #{$base_space * 3}px;
+    }
+    > .has_no_mt {
+        margin-top: 0px;
     }
 }
 
@@ -154,7 +159,6 @@ ol {
     }
 
     .c-Opening-Hours {
-
     }
 }
 

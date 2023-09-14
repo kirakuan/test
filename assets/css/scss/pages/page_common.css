@@ -58,12 +58,20 @@ ol {
   font-size: 1.8rem;
 }
 
-.u-ch-mt-2 > *:nth-child(n+2) {
+.u-ch-mt-2 > * {
   margin-top: 16px;
 }
 
-.u-ch-mt-3 > * > *:nth-child(n+2) {
+.u-ch-mt-2 > .has_no_mt {
+  margin-top: 0px;
+}
+
+.u-ch-mt-3 > * > * {
   margin-top: 24px;
+}
+
+.u-ch-mt-3 > * > .has_no_mt {
+  margin-top: 0px;
 }
 
 .c-Hero {
