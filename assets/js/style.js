@@ -21,7 +21,7 @@ const append_nav = function () {
                             <a class="nav-link" href="/first-visitor">初めての方へ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/service">サービス</a>
+                            <a class="nav-link" href="/price">料金表</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/column">読み物</a>
