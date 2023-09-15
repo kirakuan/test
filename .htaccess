@@ -2,3 +2,8 @@ RewriteEngine On
 
 # SCSSファイルへのアクセスを禁止
 RewriteRule \.scss$ - [F]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

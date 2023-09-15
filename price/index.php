@@ -1,24 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>手技処 気楽庵</title>
-    
-    <!-- style -->
-    <link href="/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="/assets/css/reset.css" rel="stylesheet">
-    <!-- <link href="/assets/css/font-awesome.min.css" rel="stylesheet"> -->
-    <link href="/assets/css/common.css" rel="stylesheet">
-    <link href="/assets/css/page_top.min.css" rel="stylesheet">
-    <link href="/assets/css/page_common.min.css" rel="stylesheet">
-
-    <!-- script -->
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/style.js"></script>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/head.php'); ?> 
 </head>
 <body class="l-Price">
-    <!-- メリット -->
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/g_nav.php'); ?>
 
     <header class="c-Hero">
         <section class="container">
@@ -38,7 +24,7 @@
     <main class="m-Main">
         <article class="m-Article">
             
-            <script>prepend_preparing()</script>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/preparing.php'); ?> 
             
             <section>
                 <div class="container c-Section">
@@ -100,7 +86,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script>append_contact()</script>
-    <script>append_nav()</script>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php'); ?> 
 </body>
 </html>
