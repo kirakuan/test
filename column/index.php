@@ -31,7 +31,7 @@
                         <li>
                             <!-- TODO: クリックできる感を出す -->
                             <li>
-                                <p><a href="/column/pain.php">・施術の痛みについて</a></p>
+                                <p><a href="/column/pain">・施術の痛みについて</a></p>
                             </li>
                             <li>
                                 <p>・準備中です：<span class="is_preparing">好転反応について</span></p>
