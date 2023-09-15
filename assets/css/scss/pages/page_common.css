@@ -47,14 +47,20 @@ ol {
 .a-Title.is_h2 {
   font-size: 2.5rem;
   padding-bottom: 0.8rem;
-  background-image: linear-gradient(90deg, #4b2df4 0 60%, #dedede 20%);
+  background-image: linear-gradient(90deg, #4b2df4 0 40%, #dedede 20%);
   background-repeat: no-repeat;
-  background-size: 100% 5%;
-  background-position: bottom;
+  background-size: 50% 5%;
+  background-position: left bottom;
 }
 
 .a-Title.is_h3 {
   font-size: 1.8rem;
+}
+
+.has_line {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: #f4582d;
 }
 
 .u-ch-mt-2 > * {
@@ -83,6 +89,28 @@ ol {
   font-size: 4rem;
   text-align: center;
   color: white;
+}
+
+.c-Open-Course-Btn {
+  position: fixed;
+  top: 75%;
+  right: 0;
+  z-index: 10000;
+  background-size: 9%;
+  text-align: center;
+  border-radius: 50px 0 0 50px;
+  border: 3px solid #ffffff;
+  background: #f4582d no-repeat 43px 57px !important;
+  background-size: 14px !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.c-Open-Course-Btn a {
+  color: white !important;
+  height: 60px;
+  display: inline-block;
+  line-height: 60px;
 }
 
 .m-Article > * {
@@ -127,4 +155,8 @@ ol {
 
 .l-Column.about_pain .m-Article .c-Section .c-Section {
   margin-top: 40px !important;
+}
+
+.l-Price .a-Remark {
+  text-align: right;
 }

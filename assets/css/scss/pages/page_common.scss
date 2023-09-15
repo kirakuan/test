@@ -70,15 +70,22 @@ ol {
         font-size: 2.5rem;
 
         padding-bottom: 0.8rem;
-        background-image: linear-gradient(90deg, $key_color 0 60%, #dedede 20%);
+        background-image: linear-gradient(90deg, $key_color 0 40%, #dedede 20%);
         background-repeat: no-repeat;
-        background-size: 100% 5%;
-        background-position: bottom;
+        background-size: 50% 5%;
+        background-position: left bottom;
     }
 
     &.is_h3 {
         font-size: 1.8rem;
     }
+}
+
+
+.has_line {
+    text-decoration: underline;
+    text-underline-offset: #{$base_space * 1}px;
+    text-decoration-color: $key_color2; 
 }
 
 //====================================================
@@ -124,6 +131,28 @@ ol {
         font-size: 4rem;
         text-align: center;
         color: white;
+    }
+}
+
+.c-Open-Course-Btn {
+    
+    position: fixed;
+    top: 75%;
+    right: 0;
+    z-index: 10000;
+    background-size: 9%;
+    text-align: center;
+    border-radius: 50px 0 0 50px;
+    border: 3px solid #ffffff;
+    background: $key_color2 no-repeat 43px 57px !important;
+    background-size: 14px!important;
+    padding-left: 20px;
+    padding-right: 20px;
+    a {
+        color: white!important;
+        height: 60px;
+        display: inline-block;
+        line-height: 60px;
     }
 }
 
@@ -199,5 +228,11 @@ ol {
                 }
             }
         }
+    }
+}
+
+.l-Price {
+    .a-Remark {
+        text-align: right;
     }
 }
