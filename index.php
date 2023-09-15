@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/head.php'); ?> 
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/head.php'); ?> 
 </head>
 <body class="l-Top">
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/g_nav.php'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/g_nav.php'); ?>
 
     <header class="c-Hero">
         <section class="container">
@@ -23,12 +23,12 @@
     <main class="m-Main">
         <!-- 紹介 -->
         <article class="m-Article">
-            <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/preparing.php'); ?> 
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/preparing.php'); ?> 
             <section>
                 <div class="container c-Section">
                     <h2 class="a-Title is_h2">東京まで行かずに <span class="is_key2">大阪で</span><a class="is_key2" href="https://shugido.jp/" target="_blank">「手技道®️の施術」</a>が受けれます！</h2>
                     <!-- <h2 class="a-Title is_h2">当院は、<a href="https://shugido.jp/" target="_blank">「東京で人気の手技道®️」</a>から<br>教わりました手技により整体を行います。</h2> -->
-                    <p>当院では、手技道®️の「腹相」と「全身治療」を受けていただけます。</p>
+                    <p>当院では、手技道®️の「腹相」と「全身施術」を受けていただけます。</p>
                     <p></p>
                     <!-- <p>
                         皆様の健康になって幸せに過ごせるよう助力するために、皆様を整体サービスを提供します。<br>
@@ -105,6 +105,6 @@
         </article>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php'); ?> 
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/footer.php'); ?> 
 </body>
 </html>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/head.php'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/head.php'); ?>
 </head>
 <body class="l-Column">
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/g_nav.php'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/g_nav.php'); ?>
 
     <header class="c-Hero">
         <section class="container">
@@ -23,7 +23,7 @@
 
     <main class="m-Main">
         <article class="m-Article">
-            <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/preparing.php'); ?> 
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/preparing.php'); ?> 
             <section>
                 <div class="container c-Section">
                     <h2 class="a-Title is_h2">読み物の一覧</h2>
@@ -45,6 +45,6 @@
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php'); ?> 
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/footer.php'); ?> 
 </body>
 </html>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/head.php'); ?> 
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/head.php'); ?> 
 </head>
 <body class="l-First-Visitor">
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/g_nav.php'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/g_nav.php'); ?>
 
     <header class="c-Hero">
         <section class="container">
@@ -24,7 +24,7 @@
     <main class="m-Main">
         <!-- 紹介 -->
         <article class="m-Article">
-            <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/preparing.php'); ?> 
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/preparing.php'); ?> 
             <section class="container">
                 <div class="container c-Section">
                     <h2 class="a-Title is_h2">当院が初めての方へ</h2>
@@ -46,7 +46,7 @@
                             <p>5. 「笑顔と元気が出る所」をお約束している。</p>
                         </li>
                     </ul>
-                    <p>身体の症状に長年悩まされている、整体を受けても完治しない、原因が分からない・・そんなあなたに</p>
+                    <p>身体の症状に長年悩まされている、整体を受けてスッキリもしない、原因が分からない・・そんなあなたに</p>
                     <p><span class="is_key2">「明日からの笑顔と元気」<span>を気楽庵ではお届けしてまいりますので、<br>まずはお試し下さいませ。スタッフ一同、心よりお待ちしております</p>
                 </div>
             </section>
@@ -140,6 +140,6 @@
     </main>
  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php'); ?> 
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/footer.php'); ?> 
 </body>
 </html>
