@@ -58,7 +58,7 @@ body {
     background-color: $base_color;
     
     // TODO: レスポンシブに対応する
-    font-size: $base_font_size;
+    font-size: #{$base_font_size}px;
 }
 
 * {
@@ -298,11 +298,20 @@ ol {
                 background-color: #888;
             }
             a {
-                max-height: 60px;
                 display: block;
                 padding: #{$base_space * 2}px 0;
                 color: #fff;
                 text-decoration: none;
+
+                font-size: 1rem;
+                max-height: 40px;
+
+                @include min-md{
+                    font-size: 2rem;
+                    max-height: 60px;
+
+                }
+
             }
         }
     }
