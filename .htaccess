@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# SCSSファイルへのアクセスを禁止
+RewriteRule \.scss$ - [F]
