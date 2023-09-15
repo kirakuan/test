@@ -83,7 +83,7 @@ const append_contact = function () {
             </div>
             <div class="c-Address">
                 <p class="a-Title is_h3">当院はこちら</p>
-                <p><a href="https://goo.gl/maps/CEporq8CZ4EgXQXR9" target="_blank">〒534-0002 大阪市都島区大東町 2-11-14</a></p>
+                <p><a href="https://goo.gl/maps/CEporq8CZ4EgXQXR9" target="_blank">〒534-0002 大阪市都島区大東町 2-11-142-201</a></p>
             </div>
             <div class="c-Access">
                 <p class="a-Title is_h3">アクセス</p>
