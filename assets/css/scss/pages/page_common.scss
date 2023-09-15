@@ -295,11 +295,14 @@ ol {
             }
             &:hover{
                 background-color: #888;
+                a {
+                    color: white!important;
+                }
             }
             a {
                 display: block;
                 padding: #{$base_space * 2}px 0;
-                color: #fff;
+                // color: #fff;
                 text-decoration: none;
 
                 font-size: 1rem;
