@@ -13,6 +13,35 @@
 //     }
 // }
 
+@mixin min-sm() {
+    @media (min-width: 576px) {
+        @content;
+    }
+}
+
+@mixin min-md() {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin min-ml() {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+
+@mixin min-xl() {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin min-xxl() {
+    @media (min-width: 1400px) {
+        @content;
+    }
+}
 
 //====================================================
 // test用
@@ -135,24 +164,27 @@ ol {
 }
 
 .c-Open-Course-Btn {
-    
-    position: fixed;
-    top: 75%;
-    right: 0;
-    z-index: 10000;
-    background-size: 9%;
-    text-align: center;
-    border-radius: 50px 0 0 50px;
-    border: 3px solid #ffffff;
-    background: $key_color2 no-repeat 43px 57px !important;
-    background-size: 14px!important;
-    padding-left: 20px;
-    padding-right: 20px;
-    a {
-        color: white!important;
-        height: 60px;
+    display: none;
+    @include min-md {
         display: inline-block;
-        line-height: 60px;
+        position: fixed;
+        bottom: 30%;
+        right: 0;
+        z-index: 10000;
+        background-size: 9%;
+        text-align: center;
+        border-radius: 50px 0 0 50px;
+        border: 3px solid #ffffff;
+        background: $key_color2 no-repeat 43px 57px !important;
+        background-size: 14px!important;
+        padding-left: 20px;
+        padding-right: 20px;
+        a {
+            color: white!important;
+            height: 60px;
+            display: inline-block;
+            line-height: 60px;
+        }
     }
 }
 

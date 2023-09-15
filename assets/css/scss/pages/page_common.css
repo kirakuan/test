@@ -92,25 +92,31 @@ ol {
 }
 
 .c-Open-Course-Btn {
-  position: fixed;
-  top: 75%;
-  right: 0;
-  z-index: 10000;
-  background-size: 9%;
-  text-align: center;
-  border-radius: 50px 0 0 50px;
-  border: 3px solid #ffffff;
-  background: #f4582d no-repeat 43px 57px !important;
-  background-size: 14px !important;
-  padding-left: 20px;
-  padding-right: 20px;
+  display: none;
 }
 
-.c-Open-Course-Btn a {
-  color: white !important;
-  height: 60px;
-  display: inline-block;
-  line-height: 60px;
+@media (min-width: 768px) {
+  .c-Open-Course-Btn {
+    display: inline-block;
+    position: fixed;
+    bottom: 30%;
+    right: 0;
+    z-index: 10000;
+    background-size: 9%;
+    text-align: center;
+    border-radius: 50px 0 0 50px;
+    border: 3px solid #ffffff;
+    background: #f4582d no-repeat 43px 57px !important;
+    background-size: 14px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .c-Open-Course-Btn a {
+    color: white !important;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+  }
 }
 
 .m-Article > * {
