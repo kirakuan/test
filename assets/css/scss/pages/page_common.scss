@@ -136,7 +136,7 @@ ol {
     > * {
         @include too_bottom_space;
     }
-    section {
+    .c-Section {
         > *:nth-child(n+2) {
             margin-top: #{$base_space * 3}px;
             padding-left: #{$base_space * 2}px;
@@ -186,7 +186,17 @@ ol {
         }
         section {
             section {
-                margin-top: #{$base_space * 5}px;
+                margin-top: #{$base_space * 5}px!important;
+            }
+        }
+    }
+
+    &.about_pain {
+        .m-Article {
+            .c-Section {
+                .c-Section {
+                    margin-top: #{$base_space * 5}px!important;
+                }
             }
         }
     }
