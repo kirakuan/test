@@ -207,9 +207,9 @@ ol {
 
 .m-Footer {
     margin-top: 60px;
-    margin-bottom: 60px;
     background-color: $main_color;
     @include too_bottom_space;
+    padding-bottom: 180px!important;
 
     .m-Footer__inner {
         * > *:nth-child(n+2) {
@@ -268,3 +268,58 @@ ol {
         text-align: right;
     }
 }
+
+
+.c-Gnav{
+    width: 100%;
+    background-color: $base_color;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    box-shadow: 0px 5px 5px -2px #cccccc inset;
+    
+    .c-Gnav__wrapper {
+        justify-content: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+        li {
+            border-left: #888 1px solid;
+            text-align: center;
+            width: calc(100%/4);
+            transition: all  0.3s ease;
+
+            &:last-child{
+                border-right: #888 1px solid;
+            }
+            &:hover{
+                background-color: #888;
+            }
+            a {
+                max-height: 60px;
+                display: block;
+                padding: #{$base_space * 2}px 0;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// .gnav_wrapper li{
+
+// }
+// .gnav_wrapper li:last-child{
+//     border-right: #888 1px solid;
+// }
+// .gnav_wrapper li:hover{
+//     background-color: #888;
+// }
+// .gnav_wrapper li a{
+//     display: block;
+//     padding: 1.3em 0;
+//     color: #fff;
+//     text-decoration: none;
+// }

@@ -3,36 +3,17 @@
 const append_nav = function () {
 
     $(`
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-bottom">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">TOP</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/first-visitor">初めての方へ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/price">料金表</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/column">読み物</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <nav class="c-Gnav">
+        <div class="container">
+            <ul class="row c-Gnav__wrapper">
+                <li class="col-1"><a href="/">ホーム</a></li>
+                <li class="col-1"><a href="/first-visitor">初めての方へ</a></li>
+                <li class="col-1"><a href="/price">料金表</a></li>
+                <li class="col-1"><a href="/column">読み物</a></li>
+            </ul>
         </div>
     </nav>
     `).appendTo("body")
-
 
 
     // $(`
