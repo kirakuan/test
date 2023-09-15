@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/components/head.php'); ?>
 </head>
