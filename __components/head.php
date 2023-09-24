@@ -8,8 +8,8 @@
 <link href="/assets/css/reset.css" rel="stylesheet">
 <!-- <link href="/assets/css/font-awesome.min.css" rel="stylesheet"> -->
 <link href="/assets/css/common.css" rel="stylesheet">
-<link href="/assets/css/page_top.min.css" rel="stylesheet">
-<link href="/assets/css/page_common.min.css" rel="stylesheet">
+<!-- <link href="/assets/css/page_top.min.css" rel="stylesheet"> -->
+<link href="/assets/css/page_common.min.css?2023_09_24" rel="stylesheet">
 
 <!-- script -->
 <script src="/assets/js/jquery.min.js"></script>
