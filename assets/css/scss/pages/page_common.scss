@@ -202,6 +202,39 @@ ol {
             padding-left: #{$base_space * 2}px;
         }
     }
+
+    .c-Section-2 {
+        
+        .c-Section-2__inner {
+
+            .c-Info {
+                > * {
+                    margin-top: #{$base_space * 3}px;
+                }
+                
+                .c-Info__desctiption {
+                    padding-left: #{$base_space * 2}px;
+                    
+                    > * {
+                        margin-top: #{$base_space * 3}px;
+                    }
+                }
+
+                .c-Info__image {
+                    text-align: center;
+            
+                    .a-Image {
+                        display: inline-block;
+                        img {
+                            max-height: 70vh;
+                        }
+                    }
+                }
+            }
+
+           
+        }
+    }
 }
 
 .m-Footer {
@@ -210,21 +243,39 @@ ol {
     @include too_bottom_space;
     padding-bottom: 180px!important;
 
-    .m-Footer__inner {
+    .m-Footer__info {
         * > *:nth-child(n+2) {
             margin-top: #{$base_space * 1}px;
             padding-left: #{$base_space * 2}px;
         }
+
+   
+    }
+    
+    .m-Footer__image {
+        text-align: center;
+
+        .a-Image {
+            display: inline-block;
+            img {
+                max-height: 50vh;
+            }
+        }
     }
 
-    .c-Opening-Hours {
-    }
 }
 
 
 //====================================================
 // layout
 //====================================================
+
+.l-Top {
+    .m-Top-Message {
+        
+    }
+}
+
 .l-First-Visitor {
     .c-Steps {
         li > section > *:nth-child(n+2) {

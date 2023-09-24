@@ -36,6 +36,18 @@
                             <li>
                                 <p>・準備中です：<span class="is_preparing">好転反応について</span></p>
                             </li>
+                            <li>
+                                <p>・準備中です：<span class="is_preparing">食生活と身体の関係</span></p>
+                            </li>
+                            <li>
+                                <p>・準備中です：<span class="is_preparing">精神と身体の関係</span></p>
+                            </li>
+                            <li>
+                                <p>・準備中です：<span class="is_preparing">人間関係と身体の関係</span></p>
+                            </li>
+                            <li>
+                                <p>・準備中です：<span class="is_preparing">健康的な食事: 未来食とは</span></p>
+                            </li>
                         </li>
                     </ul>
                 </div>
