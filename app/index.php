@@ -51,8 +51,7 @@ class PageMetaInfo {
 
 class ViewManager {
 
-    function head (PageMetaInfo $_page_meta_info) {
-        $page_meta_info = $_page_meta_info;
+    function head (PageMetaInfo $page_meta_info) {
         include($_SERVER['DOCUMENT_ROOT'] . "/app/__components/head.php");
     }
 
@@ -61,13 +60,10 @@ class ViewManager {
     }
 
     function display_component (String $component_name) {
-
         include($_SERVER['DOCUMENT_ROOT'] . "/app/__components/{$component_name}.php");
     }
 
     function display_bread_crumnb (String $page_path, String $page_name) {
-        $page_path;
-        $page_name;
         include($_SERVER['DOCUMENT_ROOT'] . "/app/__components/breadcrumb.php");
     }
 }
