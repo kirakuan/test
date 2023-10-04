@@ -1,29 +1,27 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/head.php'); ?> 
-</head>
+<?php
+    require($_SERVER['DOCUMENT_ROOT'] . '/app/index.php');
+    global $app;
+    $page_meta_info = new PageMetaInfo();
+
+?>
+
+<?php $app->view_manager->head($page_meta_info); ?> 
+
 <body class="l-Top">
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/g_nav.php'); ?>
+    <?php $app->view_manager->display_component("g_nav"); ?>
 
     <header class="c-Hero">
         <section class="container">
             <h1 class="a-Title">手技処 気楽庵</h1>
         </section>
     </header>
-    
-    <div class="c-breadcrumb container u-ch-mt-2">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page">ホーム</li>
-            </ol>
-        </nav>
-    </div>
+  
+    <?php $app->view_manager->display_bread_crumnb("", ""); ?>
 
     <main class="m-Main">
         <!-- 紹介 -->
         <article class="m-Article">
-            <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/preparing.php'); ?> 
+            <?php $app->view_manager->display_component("preparing"); ?> 
             <section class="m-Top-Message">
                 <div class="container c-Section-2">
                     
@@ -126,6 +124,8 @@
         </article>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/footer.php'); ?> 
+    
+    <?php $app->view_manager->display_component("footer"); ?> 
 </body>
-</html>
+
+<?php $app->view_manager->tail(); ?> 
