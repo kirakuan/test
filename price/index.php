@@ -29,6 +29,16 @@
                 </div>
             </section>
 
+            <section id="c-Open-Course">
+                <div class="container c-Section">
+                    <h2 class="a-Title is_h2">オープン記念コース: 50分</h2>
+                    <p>2023年12月25日まで <span class="has_line">期間限定！</span></p>
+                    <p>施術料: 4000円</p>
+                    <p class="is_key2">初期限定: 2000円</p>
+                    <p>※初回はカウンセリング・検査があるため、50～70分ほど掛かります。</p>
+                </div>
+            </section>
+
             <section>
                 <div class="container c-Section">
                     <h2 class="a-Title is_h2">(準備中): 全身調整コース: 30分</h2>
@@ -60,16 +70,6 @@
                     <p>施術料: 13000円</p>
                     <p>※初回はカウンセリング・検査があるため、90～110分ほど掛かります。</p>
                     <span class="a-Remark">※2023年12月25日からのコースです。</span>
-                </div>
-            </section>
-
-            <section id="c-Open-Course">
-                <div class="container c-Section">
-                    <h2 class="a-Title is_h2">オープン記念コース: 50分</h2>
-                    <p>2023年12月25日まで <span class="has_line">期間限定！</span></p>
-                    <p>施術料: 4000円</p>
-                    <p class="is_key2">初期限定: 2000円</p>
-                    <p>※初回はカウンセリング・検査があるため、50～70分ほど掛かります。</p>
                 </div>
             </section>
         
