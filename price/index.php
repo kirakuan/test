@@ -1,36 +1,41 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/head.php'); ?> 
-</head>
+<?php
+    require($_SERVER['DOCUMENT_ROOT'] . '/app/index.php');
+    $page_meta_info = new PageMetaInfo();
+?>
+
+<?php $app->view_manager->head($page_meta_info); ?> 
+
 <body class="l-Price">
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/g_nav.php'); ?>
+    <?php $app->view_manager->display_component("g_nav"); ?>
 
     <header class="c-Hero">
         <section class="container">
             <h1 class="a-Title">料金表</h1>
         </section>
     </header>
-    
-    <div class="c-breadcrumb container u-ch-mt-2">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">ホーム</a></li>
-                <li class="breadcrumb-item active" aria-current="page">料金表</li>
-            </ol>
-        </nav>
-    </div>
+ 
+    <?php $app->view_manager->display_bread_crumnb("", ""); ?>
 
     <main class="m-Main">
         <article class="m-Article">
             
-            <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/preparing.php'); ?> 
+            <?php $app->view_manager->display_component("preparing"); ?> 
             
             <section>
                 <div class="container c-Section">
                     <h2 class="a-Title is_h2">施術内容・料金</h2>
                     <p>当院では、筋膜にアプローチし、根本改善することを目標としています。</p>
                     <p>施術だけではなく、セルフケアや食事のアドバイスなども積極的に行っています。</p>
+                </div>
+            </section>
+
+            <section id="c-Open-Course">
+                <div class="container c-Section">
+                    <h2 class="a-Title is_h2">オープン記念コース: 50分</h2>
+                    <p>2023年12月25日まで <span class="has_line">期間限定！</span></p>
+                    <p>施術料: 4000円</p>
+                    <p class="is_key2">初期限定: 2000円</p>
+                    <p>※初回はカウンセリング・検査があるため、50～70分ほど掛かります。</p>
                 </div>
             </section>
 
@@ -67,16 +72,6 @@
                     <span class="a-Remark">※2023年12月25日からのコースです。</span>
                 </div>
             </section>
-
-            <section id="c-Open-Course">
-                <div class="container c-Section">
-                    <h2 class="a-Title is_h2">オープン記念コース: 50分</h2>
-                    <p>2023年12月25日まで <span class="has_line">期間限定！</span></p>
-                    <p>施術料: 4000円</p>
-                    <p class="is_key2">初期限定: 2000円</p>
-                    <p>※初回はカウンセリング・検査があるため、50～70分ほど掛かります。</p>
-                </div>
-            </section>
         
         </article>
     </main>
@@ -85,6 +80,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/__components/footer.php'); ?> 
+    <?php $app->view_manager->display_component("footer"); ?> 
 </body>
-</html>
+
+<?php $app->view_manager->tail(); ?> 

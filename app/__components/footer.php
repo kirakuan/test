@@ -21,12 +21,12 @@
                     </div>
                     <div class="c-Address">
                         <p class="a-Title is_h3">当院はこちら</p>
-                        <p><a href="https://goo.gl/maps/CEporq8CZ4EgXQXR9" target="_blank">〒534-0002 大阪市都島区大東町 2-11-142-201</a></p>
+                        <p><a href="https://goo.gl/maps/CEporq8CZ4EgXQXR9" target="_blank">〒534-0002 大阪市都島区大東町 2-11-14-201</a></p>
                         <p>代表者: 仲林 孝太朗</p>
                     </div>
                     <div class="c-Access">
                         <p class="a-Title is_h3">アクセス</p>
-                        <p>JR東西戦「城北公園通り」下車・徒歩15分</p>
+                        <p>JR東西線「城北公園通り」下車・徒歩15分</p>
                         <p>大阪シティバス・57号・毛馬中央公園行き「大東町三丁目」下車・徒歩３分</p>
                     </div>
                 </div>
