@@ -22,7 +22,7 @@
             
             <section>
                 <div class="container c-Section">
-                    <h2 class="a-Title is_h2">施術の痛みについて</h2>
+                    <h2 class="a-Title is_h2">食生活と身体の関係について</h2>
                     <p>身体が健康的になる食生活ってどういうものでしょう？</p>
 
                     <section>
