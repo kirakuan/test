@@ -30,11 +30,12 @@
                                 <p><a href="/column/pain">・施術の痛みについて</a></p>
                             </li>
                             <li>
-                                <p>・準備中です：<span class="is_preparing">好転反応について</span></p>
+                                <p><a href="/column/food">・食生活と身体の関係について</a></p>
                             </li>
                             <li>
-                                <p>・準備中です：<span class="is_preparing">食生活と身体の関係</span></p>
+                                <p>・準備中です：<span class="is_preparing">好転反応について</span></p>
                             </li>
+                        
                             <li>
                                 <p>・準備中です：<span class="is_preparing">精神と身体の関係</span></p>
                             </li>
