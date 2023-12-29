@@ -75,9 +75,9 @@
          -->
         </article>
     </main>
-    <div class="c-Open-Course-Btn">
+    <!-- <div class="c-Open-Course-Btn">
         <a class="a-Title is_h3" href="#c-Open-Course">オープン記念コースはこちら！</a>
-    </div>
+    </div> -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <?php $app->view_manager->display_component("footer"); ?> 
