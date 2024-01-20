@@ -22,7 +22,7 @@
                     <div class="c-Address">
                         <p class="a-Title is_h3">当院はこちら</p>
                         <p><a href="https://goo.gl/maps/CEporq8CZ4EgXQXR9" target="_blank">〒534-0002 大阪市都島区大東町 2-11-14-201</a></p>
-                        <p>代表者: 仲林 孝太朗</p>
+                        <p>代表者: 仲林 考太朗</p>
                     </div>
                     <div class="c-Access">
                         <p class="a-Title is_h3">アクセス</p>
