@@ -16,7 +16,7 @@
                             <a href="mailto:nakabayashi.shugido-r@gmail.com?subject=「手技処 気楽庵」へのお問い合わせ" target="_blank">nakabayashi.shugido-r@gmail.com</a>
                         </p>
                         <p>
-                            <a data-v-6fa6a74a="" href="https://lin.ee/QXXp8VJ" target="_blank">lineの友達登録をお願いします！</a>
+                            <a data-v-6fa6a74a="" href="https://line.me/ti/p/N1trTPlGDL" target="_blank">lineの友達登録をお願いします！</a>
                         </p>
                     </div>
                     <div class="c-Address">
