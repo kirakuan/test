@@ -52,7 +52,7 @@
                                 <div class="a-Image">
                                     <picture>
                                         <source srcset="..." type="jpeg">
-                                        <img src="/assets/images/rensyuukai/2023_09_24/9379.jpg" alt="手技処 気楽庵 玄関">
+                                        <img src="/assets/images/rensyuukai/2023_09_24/9379.jpg?2024_02_01" alt="手技処 気楽庵 玄関">
                                     </picture>
                                 </div>
                             </div>
