@@ -32,9 +32,7 @@
             <section id="c-Open-Course">
                 <div class="container c-Section">
                     <h2 class="a-Title is_h2">体質改善コース: 60分</h2>
-  
-                    <p>施術料: 4000円</p>
-                    <p class="is_key2">初期限定: 2000円</p>
+                    <p>施術料: 8000円</p>
                     <p>※初回はカウンセリング・検査があるため、70~80分ほど掛かります。</p>
                 </div>
             </section>

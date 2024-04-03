@@ -83,11 +83,16 @@ ol {
   background-color: black;
   padding-top: 80px;
   padding-bottom: 80px;
+  text-align: center;
 }
 
 .c-Hero .a-Title {
   font-size: 4rem;
-  text-align: center;
+  color: white;
+}
+
+.c-Hero .a-Text {
+  font-size: 2rem;
   color: white;
 }
 
@@ -180,10 +185,6 @@ ol {
 
 .l-First-Visitor .c-Steps li > section > *:nth-child(n+2) {
   margin-top: 8px !important;
-}
-
-.l-Column .c-List a {
-  color: #000000 !important;
 }
 
 .l-Column .m-Article > * {

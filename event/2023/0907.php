@@ -8,6 +8,7 @@
 
     <header class="c-Hero">
         <section class="container">
+            <p>重症・難病専門 整体</p>
             <h1 class="a-Title">手技処 気楽庵</h1>
         </section>
     </header>
@@ -45,6 +46,8 @@
                                         <li>・鼻炎、アレルギー</li>
                                         <li>・コロナの後遺症</li>
                                         <li>・肩こり、腰痛</li>
+                                        <li>・鞭打ち</li>
+                                        <li>・精神病</li>
                                     </ul>
                                     <p>など症状など対応しておりますので、<br>まずはお気軽にご相談下さい。</p>
                                 </div>

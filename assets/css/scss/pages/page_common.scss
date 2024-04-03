@@ -154,10 +154,14 @@ ol {
     background-color: $base2_color;
     padding-top: 80px;
     padding-bottom: 80px;
+    text-align: center;
 
     .a-Title {
         font-size: 4rem;
-        text-align: center;
+        color: white;
+    }
+    .a-Text {
+        font-size: 2rem;
         color: white;
     }
 }
