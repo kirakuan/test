@@ -29,11 +29,48 @@
                 </div>
             </section>
 
+
             <section id="c-Open-Course">
                 <div class="container c-Section">
-                    <h2 class="a-Title is_h2">体質改善コース: 60分</h2>
-                    <p>施術料: 8000円</p>
-                    <p>※初回はカウンセリング・検査があるため、70~80分ほど掛かります。</p>
+                    <h2 class="a-Title is_h2">初診コース: 60分~90分ほど</h2>
+                    <p>施術料: 5,000円</p>
+                    <p>初回で来られた方向けです。</p>
+                    <p>全身に対する施術になります。</p>
+                </div>
+            </section>
+
+            <section id="c-Open-Course">
+                <div class="container c-Section">
+                    <h2 class="a-Title is_h2">ボディメンテナンスコース: 30分ほど</h2>
+                    <p>施術料: 5,000円</p>
+                    <p>「体一部が痛い、妙に疲れを感じる、風邪の治りが遅い」という方におすすめです。</p>
+                </div>
+            </section>
+
+            <section id="c-Open-Course">
+                <div class="container c-Section">
+                    <h2 class="a-Title is_h2">基本コース: 60分ほど</h2>
+                    <p>施術料: 10,000円</p>
+                    <p>「病気や怪我の後遺症で辛い、体が痛い」という方におすすめ</p>
+                    <p>延長する場合、本格コースに切り替わります。<br>その場合は事前に申し出ます。</p>
+                </div>
+            </section>
+
+            <section id="c-Open-Course">
+                <div class="container c-Section">
+                    <h2 class="a-Title is_h2">本格コース: 90~120分ほど</h2>
+                    <p>施術料: 18,000円</p>
+                    <p>「重症・難病・精神病・謎の不調 etc」で困っている方におすすめ</p>
+                    <p>※温熱ドームの1回利用が無料となります。</p>
+                </div>
+            </section>
+
+            <section id="c-Open-Course">
+                <div class="container c-Section">
+                    <h2 class="a-Title is_h2">温熱ドーム: 60分ほど</h2>
+                    <p>施術料: 2,000円</p>
+                    <p>「冷え性・病弱・風邪・不妊・生理痛」で困っている方におすすめ</p>
+                    <p>※バスタオル3枚を持参していただくと、半額になります。</p>
                 </div>
             </section>
 
