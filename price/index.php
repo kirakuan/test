@@ -29,19 +29,9 @@
                 </div>
             </section>
 
-
             <section id="c-Open-Course">
                 <div class="container c-Section">
-                    <h2 class="a-Title is_h2">初診コース: 60分~90分ほど</h2>
-                    <p>施術料: 5,000円</p>
-                    <p>初回で来られた方向けです。</p>
-                    <p>全身に対する施術になります。</p>
-                </div>
-            </section>
-
-            <section id="c-Open-Course">
-                <div class="container c-Section">
-                    <h2 class="a-Title is_h2">ボディメンテナンスコース: 30分ほど</h2>
+                    <h2 class="a-Title is_h2">手技道[腹相]コース: 30分ほど</h2>
                     <p>施術料: 5,000円</p>
                     <p>「体一部が痛い、妙に疲れを感じる、風邪の治りが遅い」という方におすすめです。</p>
                 </div>
@@ -49,21 +39,21 @@
 
             <section id="c-Open-Course">
                 <div class="container c-Section">
-                    <h2 class="a-Title is_h2">基本コース: 60分ほど</h2>
+                    <h2 class="a-Title is_h2">全身コース: 60分ほど</h2>
                     <p>施術料: 10,000円</p>
                     <p>「病気や怪我の後遺症で辛い、体が痛い」という方におすすめ</p>
-                    <p>延長する場合、本格コースに切り替わります。<br>その場合は事前に申し出ます。</p>
+                    <!-- <p>延長する場合、本格コースに切り替わります。<br>その場合は事前に申し出ます。</p> -->
                 </div>
             </section>
 
-            <section id="c-Open-Course">
+            <!-- <section id="c-Open-Course">
                 <div class="container c-Section">
                     <h2 class="a-Title is_h2">本格コース: 90~120分ほど</h2>
                     <p>施術料: 18,000円</p>
                     <p>「重症・難病・精神病・謎の不調 etc」で困っている方におすすめ</p>
                     <p>※温熱サウナドームの1回利用が無料となります。</p>
                 </div>
-            </section>
+            </section> -->
 
             <section id="c-Open-Course">
                 <div class="container c-Section">
